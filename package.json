@@ -38,9 +38,4 @@
     ]
   },
   "proxy": "https://mern-api-4wcj.onrender.com"
-  "devDependencies": {
-    "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5",
-    "@babel/preset-env": "^7.22.5"
-  }
 }
