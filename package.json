@@ -13,6 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -37,5 +38,13 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://mern-api-4wcj.onrender.com"
+  
+  "proxy": "https://mern-api-4wcj.onrender.com",
+
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
 }
